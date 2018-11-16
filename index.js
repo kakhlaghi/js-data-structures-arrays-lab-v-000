@@ -30,7 +30,7 @@ function prependDriver(name){
 }
 
 function removeLastDriver(){
-  const newDrivers = drivers.slice(1,2)
+  const newDrivers = drivers.slice(0,2)
   return newDrivers
 }
   
