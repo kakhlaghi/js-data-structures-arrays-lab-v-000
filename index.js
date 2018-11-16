@@ -29,6 +29,6 @@ function prependDriver(name){
   return newDrivers
 }
 
-function removeDriver(name){
-  const
+function removeDriver(){
+  const newDrivers = [...drivers]
 }
